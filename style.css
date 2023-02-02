@@ -1,0 +1,154 @@
+:root {
+    --primary-color: #4F46E5;
+    --gray-color: #6B7280;
+    --text-color: #171C26;
+    --blue-color: #DBEAFE;
+    --dark-blue-color: #1E40AF;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.modal-header {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 16px;
+}
+
+.modal-footer {
+    border-top: 0;
+}
+
+.modal-content {
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.modal-body p {
+    margin-bottom: 16px;
+}
+
+.ui-autocomplete-input {
+    width: 100%;
+    line-height: 16px;
+    padding: 7px 32px 7px 8px;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+}
+
+.datepicker-field label {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.datepicker-field .fa-calendar {
+    color: var(--primary-color);
+}
+
+.modal-content input::placeholder,
+.form-check-label,
+.textarea textarea::placeholder {
+    font-size: 13px;
+    color: var(--gray-color);
+}
+
+.modal-content input,
+.textarea textarea {
+    font-size: 13px;
+    color: var(--text-color);
+}
+
+.form-check-label {
+    margin: 0;
+}
+
+label,
+.checks p {
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+label,
+.modal-body p {
+    line-height: 17px;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--primary-color);
+    --bs-btn-hover-bg: var(--primary-color);
+    --bs-btn-border-color: var(--primary-color);
+    --bs-btn-hover-border-color: var(--primary-color);
+    --bs-btn-active-bg: var(--primary-color);
+    --bs-btn-active-border-color: var(--primary-color);
+}
+
+.modal-title {
+    line-height: 24px;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.modal input[type="text"],
+.modal select {
+    height: 32px;
+}
+
+.ui-menu {
+    z-index: 1056;
+}
+
+.input-group-text {
+    padding: 3px 12px;
+}
+
+.datepicker {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    padding: 0;
+}
+
+.datepicker td,
+.datepicker th {
+    padding: 9px 11px;
+    border-radius: 0;
+}
+
+.datepicker thead {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.datepicker .datepicker-switch:hover,
+.datepicker .next:hover,
+.datepicker .prev:hover,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.active:hover {
+    background: var(--primary-color);
+}
+
+.selected-options {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.selected-option {
+    background-color: var(--blue-color);
+    color: var(--dark-blue-color);
+    padding: 4px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.selected-options .btn-close {
+    color: var(--dark-blue-color);
+    font-size: 5px;
+}
