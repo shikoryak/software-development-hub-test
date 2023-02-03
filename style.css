@@ -23,6 +23,7 @@ body {
 .modal-content {
     font-size: 14px;
     color: var(--text-color);
+    border-radius: 3px;
 }
 
 .modal-body p {
@@ -151,4 +152,13 @@ label,
 .selected-options .btn-close {
     color: var(--dark-blue-color);
     font-size: 5px;
+}
+.btn {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 15px;
+    border-radius: 6px;
+}
+.btn-light {
+    background: none;
 }
